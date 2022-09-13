@@ -8,6 +8,7 @@
   display: flex;
   flex-flow: row;
   justify-content: left;
+  position: relative;
 }
 
 .note_input {
@@ -15,7 +16,7 @@
   flex-flow: column;
   margin-right: 10px;
   align-items: start;
-  position: relative;
+
 }
 
 .note_title {
@@ -35,8 +36,12 @@
 
 .add_btn {
   margin-top: auto;
-
+  position: absolute;
   background: white;
+  border: 1px solid #000;
+  border-radius: 100%;
+  bottom: 5px;
+  left: 170px;
 }
 
 .update {

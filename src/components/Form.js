@@ -33,6 +33,7 @@ export default function Form({ onAdd }) {
             <button
                 className="add_btn"
                 onClick={onAddNotes}>
+                ➤
             </button>
         </form >
 
